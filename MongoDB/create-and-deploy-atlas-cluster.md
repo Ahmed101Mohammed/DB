@@ -1,18 +1,18 @@
 # Creating and Deploying an Atlas Cluster
 1. Go to the Atlas [login page](https://account.mongodb.com/account/login) or [sign up page](https://account.mongodb.com/account/register).
 2. Login if you already registered before, or Register of you don't have account on atlas.
-3. On the top left part of the page: you can find orgnization dropdown field, to selec an orgnization or create one.
+3. On the top left part of the page: you can find orgnization dropdown field, to selec an orgnization or create one.\
 ![orgnizations position of atlas home page](./images/orgnizations-one-atlas-main-page.png)
   - Orgnizations used to orgnized your cloude projects clusters and teams, to determine authorizations for users.
-  3.1 If you don't have an orgnization create one:
+  3.1 If you don't have an orgnization create one:\
   ![create new orgnization step 1](./images/create-new-orgnization-step-1.png)
   ![create new orgnization step 2](./images/create-new-orgnization-step-2.png)
   3.2 Add your orgnization name & select 'MongoDB Atlas' service: 
   ![create new orgnization step 3 (Adding name & select 'MongoDB Atlas' service)](./images/create-new-orgnization-step-3.png)
   ![create new orgnization step 4](./images/create-new-orgnization-step-4.png)
   ![create new orgnization step 5](./images/create-new-orgnization-step-5.png)
-4. From orgnization dropdown field, you can shoose your new or old orgnization.
-![choose your orgnization](choose-orgnization.png)
+4. From orgnization dropdown field, you can shoose your new or old orgnization.\
+![choose your orgnization](./images/choose-orgnization.png)
 5. The orgnization projects table will apear, if you don't have any job the table will be empty.
   - One project is contain several clusters for the same project. Commonly one project used for one application. In the same Orgnization we may create several projects for the same app, one for development stage, another for testing stage and another one for production stage.
   5.1 Lets build new project by clicking on 'New Project' button:
