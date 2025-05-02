@@ -124,7 +124,7 @@ There are 2 cases for mapping of binary relationships (1:N)
 5. The **PK** of the new table you need to find it by your self, it maybe **composite** and may you use **artifitial key** if you can't find any **natural key**.
 
 [Here is an example of **Mapping ERD to DB schema**](./design/Nary-relation.drawio).  
-[**Mapping ERD to DB schema** image](./images/Nary-relation.png)  
+![**Mapping ERD to DB schema** image](./images/Nary-relation.png)  
 
 ### 7. Mapping of Unary Relationships (Self-Relationships)
 
@@ -135,7 +135,7 @@ There are 2 cases for mapping of binary relationships (1:N)
 4. Mapping the attributes accourding to *Mapping the attriubtes* section.
 
 [Here is an example of **Mapping ERD to DB schema**](./design/unary-relation-one-to-many.drawio).  
-[**Mapping ERD to DB schema** image](./images/unary-relation-one-to-many.png)  
+![**Mapping ERD to DB schema** image](./images/unary-relation-one-to-many.png)  
 
 #### Case 2: When the relationship is (M:N)
 1. Convert the entity into a table.
@@ -145,7 +145,7 @@ There are 2 cases for mapping of binary relationships (1:N)
 4. Mapping the attributes accourding to *Mapping the attriubtes* section.
 
 [Here is an example of **Mapping ERD to DB schema**](./design/unary-relation-many-to-many.drawio).  
-[**Mapping ERD to DB schema** image](./images/unary-relation-many-to-many.png)  
+![**Mapping ERD to DB schema** image](./images/unary-relation-many-to-many.png)  
 
 ### Mapping the attriubtes
 This is a part of the previouse 2 steps, to complate **Mapping** them.
